@@ -1,24 +1,48 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
+import Home from './components/Home';
+import Image from './components/Image';
+import Navbar from './components/Navbar';
+import Grout2 from './components/Grout2';
+import Description from './components/Description';
+import Description2 from './components/Description2';
+import Description3 from './components/Description3';
+import Description4 from './components/Description4';
+import Description5 from './components/Description5';
+import DescriptionC215 from './components/DescriptionC215';
+import Contact from './components/Contact'
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+
+    <Router>
+    <div className='App'>
+      <Navbar /> 
+      {/* <div className="background"></div> */}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} /> 
+      <Route path="/groot" element={<Image />} />
+      <Route path="/groot2" element={<Grout2 />} />
+      <Route path="/description" element={<Description />} />
+      <Route path="/description2" element={<Description2 />} />
+      <Route path="/description3" element={<Description3 />} />
+      <Route path="/description4" element={<Description4 />} />
+      <Route path="/description5" element={<Description5 />} />
+      <Route path="/descriptionC215" element={<DescriptionC215 />} />
+      <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
+    </Router>
   );
 }
 
