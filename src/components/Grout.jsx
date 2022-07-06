@@ -11,4 +11,3 @@ export default function Grout() {
   )
 }
 
-{/* <img src="https://m.media-amazon.com/images/I/51iUCccwLiL._AC_SL1000_.jpg" alt="grout"/> */}
