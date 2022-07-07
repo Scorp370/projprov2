@@ -9,7 +9,7 @@ const Home = () => {
             <h1> Hello You !!</h1>
 
             <Link to="/descriptionC215">
-        <img src={C215} alt="grout" />
+        <img src={C215} alt="C215" />
       </Link>
 
         </div>

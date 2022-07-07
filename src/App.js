@@ -12,8 +12,8 @@ import Description4 from './components/Description4';
 import Description5 from './components/Description5';
 import DescriptionC215 from './components/DescriptionC215';
 import Contact from './components/Contact'
-
-
+// import Footer from './components/Footer'
+import SocialFollow from "./components/SocialFollow"
 
 
 
@@ -27,7 +27,6 @@ function App() {
     <Router>
     <div className='App'>
       <Navbar /> 
-      {/* <div className="background"></div> */}
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} /> 
@@ -41,6 +40,8 @@ function App() {
       <Route path="/descriptionC215" element={<DescriptionC215 />} />
       <Route path="/contact" element={<Contact />} />
       </Routes>
+    {/* <Footer /> */}
+    <SocialFollow />
     </div>
     </Router>
   );

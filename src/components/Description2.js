@@ -1,6 +1,6 @@
 import React from 'react'
 
- function Description2() {
+ function Description2 () {
   return (
     <div>
         <p>
