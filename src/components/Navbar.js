@@ -9,7 +9,7 @@ export default function Navbar() {
 
          
 
-        <Link to="/"> Accueil </Link>
+        <Link to="/artistes"> Artistes </Link>
         <Link to="/groot"> Image Groot </Link>
         <Link to="/home"> <img src={logo} alt="logo" height={"100px"} width={"100px"} /></Link>
         <Link to= "/groot2"> image groot click </Link>

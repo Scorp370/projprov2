@@ -6,7 +6,7 @@ import C215 from '../image/C215.jpg'
 const Home = () => {
     return (
         <div>
-            <h1> Hello You !!</h1>
+            <h1> Artiste du Mois</h1>
 
             <Link to="/descriptionC215">
         <img src={C215} alt="C215" />

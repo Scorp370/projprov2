@@ -14,6 +14,11 @@ import DescriptionC215 from './components/DescriptionC215';
 import Contact from './components/Contact'
 // import Footer from './components/Footer'
 import SocialFollow from "./components/SocialFollow"
+import Artistes from './components/Artistes';
+import Banksy from './components/Banksy';
+import Levalet from './components/Levalet';
+import Mto from './components/Mto';
+
 
 
 
@@ -28,8 +33,8 @@ function App() {
     <div className='App'>
       <Navbar /> 
     <Routes>
-      <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} /> 
+      <Route path="/artistes" element={<Artistes />} />
       <Route path="/groot" element={<Image />} />
       <Route path="/groot2" element={<Grout2 />} />
       <Route path="/description" element={<Description />} />
@@ -39,6 +44,12 @@ function App() {
       <Route path="/description5" element={<Description5 />} />
       <Route path="/descriptionC215" element={<DescriptionC215 />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/banksy" element={<Banksy />} />
+      <Route path="/levalet" element={<Levalet />} />
+      <Route path="/mto" element={<Mto />} />
+
+
+
       </Routes>
     {/* <Footer /> */}
     <SocialFollow />
