@@ -1,8 +1,8 @@
-import React from 'react';
+    import React from 'react';
 
 const DescriptionC215 = () => {
     return (
-        <div>
+        <div className='description215'>
             <p>
             Christian GUEMY, alias C215 (Artiste peintre), vit et travaille à Ivry-sur-Seine
 
